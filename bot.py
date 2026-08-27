@@ -5,8 +5,8 @@ import pandas as pd
 import ta
 
 # --- CONFIGURATION & ENV VARIABLES ---
-API_KEY = os.getenv('DELTA_API_KEY', 'YOUR_API_KEY_HERE')
-API_SECRET = os.getenv('DELTA_API_SECRET', 'YOUR_API_SECRET_HERE')
+API_KEY = 'nGn7y68cpUDUC1AbEGbNnzcGu0FIXx'
+API_SECRET = 'EbKGn8vw2f1HHacJRENw8ydqoV60rSlGWKks4nTYGdD9A2SSpEUimhL3RvP2'
 
 SYMBOL = 'BTC/USDT'       # Delta Exchange trading pair
 TIMEFRAME = '15m'         # 15 Minute Scalping Timeframe
