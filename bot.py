@@ -214,5 +214,4 @@ if __name__ == "__main__":
             execute_trade()
         except Exception as e:
             print(f"Error occurred: {e}")
-        
-        time.sleep(60)
+            time.sleep(60)
