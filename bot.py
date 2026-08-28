@@ -8,8 +8,9 @@ import ta
 API_KEY = 'nGn7y68cpUDUC1AbEGbNnzcGu0FIXx'
 API_SECRET = 'EbKGn8vw2f1HHacJRENw8ydqoV60rSlGWKks4nTYGdD9A2SSpEUimhL3RvP2'
 
-SYMBOL = 'BTC/USDT'       # Delta Exchange trading pair
-TIMEFRAME = '15m'         # 15 Minute Scalping Timeframe
+SYMBOL = 'ETH/USDT'
+       # Delta Exchange trading pair
+TIMEFRAME = '1Hr'         # 15 Minute Scalping Timeframe
 LEVERAGE = 1              # Dynamic Lot Size multiplier / Leverage
 
 # Strategy Parameters
