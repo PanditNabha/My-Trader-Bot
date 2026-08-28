@@ -11,7 +11,7 @@ API_SECRET = 'EbKGn8vw2f1HHacJRENw8ydqoV60rSlGWKks4nTYGdD9A2SSpEUimhL3RvP2'
 SYMBOL = 'ETHUSD'
        # Delta Exchange trading pair
 TIMEFRAME = '1h'         # 15 Minute Scalping Timeframe
-LEVERAGE = 1              # Dynamic Lot Size multiplier / Leverage
+LEVERAGE = 10             # Dynamic Lot Size multiplier / Leverage
 
 # Strategy Parameters
 EMA_FAST = 9
