@@ -5,8 +5,8 @@ import pandas as pd
 import ta
 
 # --- CONFIGURATION & ENV VARIABLES ---
-API_KEY = 'nGn7y68cpUDUC1AbEGbNnzcGu0FIXx'
-API_SECRET = 'EbKGn8vw2f1HHacJRENw8ydqoV60rSlGWKks4nTYGdD9A2SSpEUimhL3RvP2'
+API_KEY = os.getenv('DELTA_API_KEY')
+API_SECRET = os.getenv('DELTA_API_SECRET')
 
 SYMBOL = 'ETHUSD'
        # Delta Exchange trading pair
